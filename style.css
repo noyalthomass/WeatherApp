@@ -1,0 +1,67 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+.section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.section h1 {
+    position: fixed;
+    display: flex;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "Cookie";
+    padding: 20px;
+    color: white;
+    z-index: 1;
+    margin-top: -250px;
+}
+
+.video-container {
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    top: 0;
+    left: 0;  
+}
+.section input {
+    position: fixed;
+    display: flex;
+    justify-content:center;
+    width: 60%;
+    height: 8vh;
+    font-family: "Cookie";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+}
+.section button {
+    position:fixed;
+    display: flex;
+    justify-content:center;
+    font-family: "Cookie";
+    height: 8vh;
+    padding: 10px;
+    margin-left: 950px;
+    z-index: 1;
+}
+
+
+#result {
+    height: 600px;
+    color: white;
+    border: 2px red;
+    text-align:center;
+    font-family: "Cookie";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    margin-top: 700px;
+    margin-left: 600px;
+}
